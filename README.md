@@ -49,3 +49,37 @@ yarn hardhat run scripts/deploy.js --network localhost
 ```
 yarn hardhat console --network localhost
 ```
+
+For test
+
+```
+yarn hardhat test
+```
+
+For testing a test with a particular key word -> 'store'
+
+```
+    yarn hardhat test --grep store
+
+```
+
+To install hardhat gas reporter
+
+```
+yarn add hardhat-gas-reporter --dev
+```
+
+Add gas-reporter.txt to .gitignore
+
+Create coinmarketcap account
+
+Add Solidity Coverage
+
+```
+yarn add --dev solidity-coverage
+
+yarn hardhat coverage
+```
+
+Add coverage.json to .gitignore
+
