@@ -11,8 +11,12 @@
     "@nomicfoundation/hardhat-toolbox": "^6.0.0",
     "@nomicfoundation/hardhat-verify": "^2.0.0",
     "@nomiclabs/hardhat-etherscan": "^3.1.8",
+    "@typechain/ethers-v5": "^11.1.2",
     "@typechain/ethers-v6": "^0.5.0",
-    "@typechain/hardhat": "^9.0.0",
+    "@typechain/hardhat": "^9.1.0",
+    "@types/chai": "^5.2.2",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^24.0.7",
     "chai": "^4.2.0",
     "dotenv": "^17.0.0",
     "ethers": "^6.4.0",
@@ -21,6 +25,8 @@
     "prettier": "^3.6.2",
     "prettier-plugin-solidity": "^2.0.0",
     "solidity-coverage": "^0.8.16",
-    "typechain": "^8.3.0"
+    "ts-node": "^10.9.2",
+    "typechain": "^8.3.2",
+    "typescript": "^5.8.3"
   }
 }

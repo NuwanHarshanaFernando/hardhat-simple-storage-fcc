@@ -83,3 +83,33 @@ yarn hardhat coverage
 
 Add coverage.json to .gitignore
 
+
+https://github.com/smartcontractkit/full-blockchain-solidity-course-js
+
+Add these npm packages for typesript
+
+```
+yarn add --dev @typechain/ethers-v5 @typechain/hardhat @types/chai @types/node @types/mocha ts-node typechain typescript
+```
+
+Add tsconfig.json file
+
+Run in typescript
+
+```
+yarn hardhat run scripts/deploy.ts --network hardhat
+
+```
+
+typechain             Generate Typechain typings for compiled contracts
+
+import "@typechain/hardhat" in hardhatconfig.ts
+
+'''
+yarn hardhat typechain
+'''
+
+It creates a new folder called 'typechain-types' for our contract
+
+Add typechain and typechain-types to .gitignore
+
